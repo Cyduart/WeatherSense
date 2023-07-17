@@ -1,7 +1,7 @@
 
 
 ## WeatherSense
-<h1 align="center">WeatherSense</h1>
+<h1 align="center">🌧WeatherSense🌧</h1>
 
 
 <p align="center">
