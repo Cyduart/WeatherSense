@@ -14,7 +14,7 @@
 </p>
 <br>
 <p align="center">
-Pagina feita baseada na imagem a baixo, com algumas modificações
+-Pagina feita com muito amor <3-
 </p>
 <br>
 
