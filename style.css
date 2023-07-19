@@ -1,10 +1,9 @@
-/* Estilos globais */
 * {
   margin: 0;
   padding: 0;
   font-family: Space Grotesk, Arial, sans-serif;
+  scroll-behavior: smooth;
 }
-
 
 /* Estilos da barra de navegação */
 .navbar {
@@ -14,17 +13,27 @@
   height: 10vh;
   background-color: #48484a;
 }
+
+.navbar.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .navbar p {
   color: orange;
   font-size: 17px;
 }
+
 .navbar img {
   width: 50px;
   display: flex;
   align-items: end;
   justify-content: end;
-  mix-blend-mode:color-dodge;
+  mix-blend-mode: color-dodge;
 }
+
 .nav-items {
   display: flex;
 }
@@ -37,8 +46,8 @@
   font-size: 14px;
   margin-left: 40px;
 }
-.nav-items li:hover{
-  transform: translatey(50%);
+.nav-items li:hover {
+  transform: translatey(10%%);
   border: 0.5px solid white;
   border-radius: 8px;
   font-size: 16px;
@@ -66,7 +75,7 @@
   background-position: center;
 }
 
-.search-form button:hover{
+.search-form button:hover {
   background-color: #272525;
 }
 
@@ -107,10 +116,9 @@ header p {
   padding: 20px;
 }
 
-.card h2{
+.card h2 {
   color: blue;
 }
-
 
 /* Estilos do conteúdo principal */
 main {
@@ -149,5 +157,5 @@ main {
   }
   .card {
     flex-basis: 100%;
-}
+  }
 }
