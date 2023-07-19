@@ -18,21 +18,21 @@
 <body>
     <nav>
         <div class="navbar">
-             <img src="./assets/weathersense-logo.jpg"
+            <img src="./assets/weathersense-logo.jpg"
                 alt="Imagem logo com um sol, passando brizas quentes e geladas, e em baixo um floco de neve.">
-                <p>WeatherSense</p>
-                <form action="/pesquisar" class="search-form">
-                    <input type="text" name="q" placeholder="Digite sua pesquisa...">
-                    <button type="submit"></button>
-                </form>
-                <div class="nav-items">
-                    <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Ver Clima</a></li>
-                        <li><a href="#">Alertas</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </ul>
-                </div>
+            <p>WeatherSense</p>
+            <form action="/pesquisar" class="search-form">
+                <input type="text" name="q" placeholder="Digite sua pesquisa...">
+                <button type="submit"></button>
+            </form>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#verclima">Ver Clima</a></li>
+                    <li><a href="#">Alertas</a></li>
+                    <li><a href="#sobrenos">Sobre-Nós</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <header>
@@ -41,8 +41,18 @@
             <p>O melhor serviço, especialmente criado para atender todas as suas necessidades meteorológicas.</p>
         </div>
     </header>
+    <div class="about-us">
+        <h2>Sobre-nós</h2>
+        <p>Bem-vindo à WeatherSense, uma empresa apaixonada por previsões meteorológicas precisas e soluções inovadoras
+            relacionadas ao clima. Nosso objetivo é fornecer informações climáticas confiáveis e serviços personalizados
+            que capacitem indivíduos e empresas a tomar decisões informadas, proteger seus recursos e se preparar para
+            as condições climáticas em constante mudança.</p>
 
-    <main>
+
+
+
+    </div>
+    <main id="verclima">
         <h2>Verifique o Clima da Sua cidade</h2>
         <form class="busca">
             <input type="search" id="serchInput">
