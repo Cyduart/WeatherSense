@@ -94,6 +94,8 @@ header p {
   margin: 0 0 72.4px;
 }
 
+
+
 /* Estilos do conteúdo principal */
 main {
   display: flex;
@@ -110,7 +112,7 @@ main {
     padding: 3rem 2rem;
   }
   .nav-items li {
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 15px;
   }
   .search-form {
