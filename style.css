@@ -37,6 +37,7 @@
 .nav-items {
   display: flex;
 }
+
 .nav-items ul {
   list-style: none;
   display: flex;
