@@ -95,12 +95,12 @@ header {
 }
 header h1 {
   font-size: 45px;
-  color: orange;
+  color: rgb(255, 255, 255);
   margin: 0;
 }
 header p {
   font-size: 25px;
-  color: black;
+  color: rgb(255, 255, 255);
   margin: 0 0 72.4px;
 }
 
@@ -125,8 +125,18 @@ header p {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 13rem;
+}
+
+
+footer{
+    background-color: #F2F2F2;
+    padding: 32pt 8pt;
+    margin-top: 32pt;
+    font-size: 14px;
+    line-height: 20pt;
 }
 
 /* Estilos para dispositivos móveis */
