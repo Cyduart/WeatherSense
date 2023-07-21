@@ -1,3 +1,4 @@
+/* Estilos gerais */
 * {
   margin: 0;
   padding: 0;
@@ -42,31 +43,37 @@
   list-style: none;
   display: flex;
 }
+
 .nav-items li {
   letter-spacing: 3px;
   font-size: 14px;
   margin-left: 40px;
 }
+
 .nav-items li:hover {
-  transform: translatey(10%);
+  transform: translateY(10%);
   border: 0.5px solid white;
   border-radius: 8px;
   font-size: 16px;
 }
+
 .nav-items a {
   text-decoration: none;
   color: #f2f2f2;
 }
+
 .search-form {
   display: flex;
   align-items: center;
 }
+
 .search-form input[type="text"] {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #000;
 }
-.search-form button{
+
+.search-form button {
   padding: 10px;
   background-color: transparent;
   border: none;
@@ -87,17 +94,20 @@ header {
   background: url(./assets/background.jpg) no-repeat;
   background-size: cover;
 }
+
 .element {
   display: flex;
   flex-direction: column;
   padding-left: 14rem;
   padding-top: 5rem;
 }
+
 header h1 {
   font-size: 45px;
   color: rgb(255, 255, 255);
   margin: 0;
 }
+
 header p {
   font-size: 25px;
   color: rgb(255, 255, 255);
@@ -126,17 +136,96 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: flex-start;
-  margin-left: 13rem;
+  align-items: center;
+  background-image: url(./assets/bg-main.png);
+  background-size: cover;
+
+}
+
+main h2 {
+  margin-top: 2rem;
+  padding-top: 5rem;
+}
+
+.busca input[type='search'] {
+  background-color: #f2f2f2;
+  color: #48484a;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 150px;
+  transition: box-shadow 0.3s ease;
+}
+
+.busca input[type='search']:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.busca button {
+  background-color: #48484a;
+  color: #f2f2f2;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.busca button:hover {
+  background-color: #272525;
+}
+
+.resultado {
+  display: none;
+  background-color: #ccb0b0;
+  padding: 10px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 30px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temp,
+.vento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.tempTitulo,
+.ventoTitulo {
+  margin: 5px;
+  font-size: 30px;
+}
+
+.tempInfo,
+.ventoInfo {
+  font-size: 27px;
 }
 
 
-footer{
-    background-color: #F2F2F2;
-    padding: 32pt 8pt;
-    margin-top: 32pt;
-    font-size: 14px;
-    line-height: 20pt;
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #F2F2F2;
+  background: cover;
+}
+
+p{
+  
+
 }
 
 /* Estilos para dispositivos móveis */
@@ -153,7 +242,7 @@ footer{
   .search-form {
     margin-top: 10px;
   }
-  .search-form button{
+  .search-form button {
     padding: 10px;
   }
   .element {
