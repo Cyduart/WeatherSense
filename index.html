@@ -13,7 +13,7 @@
     <title>WeatherSense</title>
     <link class="icon" rel="icon" href="./assets/weathersense-logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
 </head>
 
 <body id="home">
@@ -24,7 +24,7 @@
             <p>WeatherSense</p>
             <form class="search-form">
                 <input type="text" name="q" placeholder="Digite sua pesquisa...">
-                <button type="submit"></button>
+                <button></button>
             </form>
             <div class="nav-items">
                 <ul>
@@ -70,41 +70,36 @@
     </div>
 
     <main>
-        <div id="verclima">
-            <h2>Verifique o Clima da Sua cidade</h2>
-            <form class="busca">
-                <input type="search" id="serchInput">
-                <button>Buscar</button>
-            </form>
-            <div class="resultado">
-                <div class="titulo">--</div>
+        <h2>Verifique o Clima da Sua cidade</h2>
+        <form class="busca">
+            <input type="search" id="serchInput"/>
+            <button>Buscar</button>
+        </form>
 
-                <div class="info">
-                    <div class="temp"></div>
-                    <div class="tempTitulo">Temperatura</div>
-                    <div class="tempInfo">-- <sup>ºC</sup></div>
-                    <img src="" alt="">
-                </div>
+        <div class="resultado">
+            <div class="titulo">--</div>
 
-                <div class="vento">
-                    <div class="ventoTitulo">Vento</div>
-                    <div class="ventoInfo">-- <span>km/h</span></div>
-                    <div class="ventoArea"></div>
-                    <div class="ventoPonto" style="transform: rotate(0deg);"></div>
-                </div>
+            <div class="info">
+                <div class="temp"></div>
+                <div class="tempTitulo">Temperatura</div>
+                <div class="tempInfo">-- <sup>ºC</sup></div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png">
             </div>
 
-            <div class="aviso"></div>
+            <div class="vento">
+                <div class="ventoTitulo">Vento</div>
+                <div class="ventoInfo">-- <span>km/h</span></div>
+                <div class="ventoArea"></div>
+                <div class="ventoPonto" style="transform: rotate(0deg);"></div>
+            </div>
         </div>
-
-        <div></div>
+        <div class="aviso"></div>
 
     </main>
     <footer>
         <p>© 2023 - WeatherSense ® Todos os direitos reservados</p>
-
     </footer>
-
+    <script defer src="script.js"></script>
 </body>
 
 </html>
